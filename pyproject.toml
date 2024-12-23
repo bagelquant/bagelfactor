@@ -18,7 +18,9 @@ classifiers = [
 ]
 dependencies = [
     "pandas>=2.2.0",
-    "matplotlib"
+    "matplotlib",
+    "sqlalchemy>=2.0.0",
+    "pymysql"
 ]   
 
 [project.urls]
